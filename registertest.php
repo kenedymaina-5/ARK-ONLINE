@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('remotemysql.com', '17324', 'UtGp1ssC60', 'Yk917zbTBf', 'UtGp1ssC60');
+$conn = new mysqli('remotemysql.com', 'UtGp1ssC60', 'Yk917zbTBf', 'UtGp1ssC60');
 if ($conn->connect_error) {
 	echo 'Connection failed<br>';
 }
