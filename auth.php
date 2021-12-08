@@ -1,9 +1,9 @@
 <?php
 
-$dbusername = "root";
-$dbpassword = "";
-$dbhost = "localhost";
-$dbname = "genesis";
+$dbhost = "mysql-61193-0.cloudclusters.net:17324";
+$dbusername = "admin";
+$dbpassword = "AUokmAyE";
+$dbname = "arc";
 
 $conn = new mysqli($dbhost, $dbusername, $dbpassword, $dbname);
 
