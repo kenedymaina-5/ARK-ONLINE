@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('localhost', 'root', '', 'genesis');
+$conn = new mysqli('mysql-61193-0.cloudclusters.net', 'admin', 'AUokmAyE', '17324' 'arc');
 if ($conn->connect_error) {
 	echo 'Connection failed<br>';
 }
