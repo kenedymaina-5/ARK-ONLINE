@@ -1,5 +1,5 @@
 <?php
-$servername = "phpmyadmin-c009.cloudclusters.net";
+$servername = "mysql-61193-0.cloudclusters.net";
 $username = "admin"; // For MYSQL the predifined username is root
 $password = "AUokmAyE"; // For MYSQL the predifined password is " "(blank)
 
