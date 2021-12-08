@@ -18,15 +18,15 @@ if ($password_1 != $password_2){
 }
 
 echo $username, $password_2, $password_1, $email;
-$stmt ="INSERT INTO genesis (username, email, password_1, password_2) VALUES ('$username', '$email', '$password_1', '$password_2')";
+// $stmt ="INSERT INTO genesis (username, email, password_1, password_2) VALUES ('$username', '$email', '$password_1', '$password_2')";
 
-if ($conn->query($stmt) == True){
-	header('location: HOME.html');
-}else{
-	header('location: index.html');
-}
+// if ($conn->query($stmt) == True){
+// 	header('location: HOME.html');
+// }else{
+// 	header('location: index.html');
+// }
 
-// echo "registration successfull";
+// // echo "registration successfull";
 $conn->close();
 
 ?>
