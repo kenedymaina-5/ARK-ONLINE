@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "username"; // For MYSQL the predifined username is root
-$password = "yourpassword"; // For MYSQL the predifined password is " "(blank)
+$servername = "mysql-61193-db.mysql-61193:17324";
+$username = "admin"; // For MYSQL the predifined username is root
+$password = "AUokmAyE"; // For MYSQL the predifined password is " "(blank)
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
