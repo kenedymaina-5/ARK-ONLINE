@@ -18,16 +18,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `genesis`
+-- Database: `genesis2`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `genesis`
+-- Table structure for table `genesis2`
 --
 
-CREATE TABLE `genesis` (
+CREATE TABLE `genesis2` (
   `username` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password_1` varchar(50) NOT NULL,
@@ -35,10 +35,10 @@ CREATE TABLE `genesis` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `genesis`
+-- Dumping data for table `genesis2`
 --
 
-INSERT INTO `genesis` (`username`, `email`, `password_1`, `password_2`) VALUES
+INSERT INTO `genesis2` (`username`, `email`, `password_1`, `password_2`) VALUES
 ('b141/18024/2019', 'kenedymungaimaina@yahoo.com', 'ijioj', 'jioj'),
 ('b141/18nk024/2019', 'd@nejfnk.fd', 'jmlkmkl', 'knlk'),
 ('r', '', 'eg', ''),
