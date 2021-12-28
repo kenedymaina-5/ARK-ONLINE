@@ -1,7 +1,7 @@
 <?php
-$servername = "mysql-61193-0.cloudclusters.net";
+$servername = "mysql-63949-0.cloudclusters.net";
 $username = "admin"; // For MYSQL the predifined username is root
-$password = "AUokmAyE"; // For MYSQL the predifined password is " "(blank)
+$password = "5jWbCUPL"; // For MYSQL the predifined password is " "(blank)
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
