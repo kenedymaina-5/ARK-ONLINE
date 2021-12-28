@@ -335,3 +335,9 @@ body {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
+.shop-item-image{
+    border: 1px solid;
+    border-radius: 1px;
+    width: 450px;
+    height:350px;
+}
