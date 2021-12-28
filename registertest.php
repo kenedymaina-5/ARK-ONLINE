@@ -13,7 +13,7 @@ $password_1 = $_REQUEST['password_1'];
 $password_2 = $_REQUEST['password_2'];
 
 if ($password_1 != $password_2){
-	header("Location: /index.html?message=Passwords do not match");
+	header("Location: /account.html?message=Passwords do not match");
 	
 }
 
@@ -23,7 +23,7 @@ $stmt ="INSERT INTO genesis (username, email, password_1, password_2) VALUES ('$
 if ($conn->query($stmt) == True){
 	header('location: HOME.html');
 }else{
-	header('location: index.html');
+	header('location: account.html');
 }
 
 // echo "registration successfull";
