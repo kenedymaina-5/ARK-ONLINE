@@ -5,7 +5,7 @@ if ($conn->connect_error) {
 	echo 'Connection failed<br>';
 }
 else {
-	echo 'connection successfull<br>';
+	//echo 'connection successfull<br>';
 }
 $username = $_REQUEST['username'];
 $email = $_REQUEST['email'];
